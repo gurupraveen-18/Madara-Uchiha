@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="../other pages/profile.css">
+</head>
+<body>
+    <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <div class="logo-text">Madara</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../other pages/profile.html">Profile</a></li>
+                        <li><a href="../other pages/weapons.html">Weapons</a></li>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="../../Professional projects/Slider 3D/index.html">Other Designs</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+     </div>
+
+    <div class="profile-container">
+        <div class="profile-card">
+            <img class="profile-image" src="../images/Profile.png" alt="image1">
+        </div>
+        <div class="profile-card character-card">
+            <img class="character-image" src="../images/ff-char.png" alt="image2">
+        </div>
+    </div>
+
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+     </script>
+</body>
+</html>

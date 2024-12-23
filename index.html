@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madara Uchiha</title>
+    <link rel="stylesheet" href="style.css">
+    <!----Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+     <div class="hero-header">
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <div class="logo-text">Guru Praveen</div>
+                </div>
+                <nav>
+                    <div class="togglebtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../other pages/profile.html">Profile</a></li>
+                        <li><a href="../other pages/Weapons.html">Weapons</a></li>
+                        <li><a href="#">Fashion</a></li>
+                        <li><a href="../Slider 3D/index.html">Other Designs</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                 <div class="hero-pic">
+                    <img src="images/madara2.png" alt="profile pic">
+                 </div>
+                 <div class="hero-text">
+                    <h5>Hi It's Me !<span class="input">   I Am</span></h5><br>
+                    <h1>MADARA</h1><br>
+                    <p> Wake Up To Reality ! Nothing Ever Goes As Planned In This Accursed World. The Longer You Live The More You Realise That The Only Things That Truely Exist In This Reality Are Merely Pain, Suffering And Futility.
+                    </p>
+
+                    <div class="btn-group">
+                       <a href="#" class="btn active">Rinnegan</a>
+                       <a href="#" class="btn">Sharingan</a>
+                    </div>
+
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+                        <a href="#"><i class="fa-brands fa-pintrest"></i></a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+     </div>
+
+     <script>
+        /** creating button click show hide navbar **/
+        var togglebtn=document.querySelector(".togglebtn");
+        var nav=document.querySelector(".navlinks");
+        var links=document.querySelector(".navlinks li");
+
+        togglebtn.addEventListener("click", function(){
+            this.classList.toggle("click");
+            nav.classList.toggle("open");
+        })
+     </script>
+</body>
+</html>
